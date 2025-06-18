@@ -101,8 +101,6 @@ const userSlice = createSlice({
       state.user = null;
       state.error = null;
       state.isAuthChecked = false;
-      localStorage.removeItem('refreshToken');
-      document.cookie = 'accessToken=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     }
   },
   extraReducers: (builder) => {
