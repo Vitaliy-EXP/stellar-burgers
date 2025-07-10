@@ -1,0 +1,14 @@
+node_modules/
+*.log
+dist/
+.vscode/
+.storybook/
+README.md
+.prettierrc
+.gitignore
+package-lock.json
+.env.example
+*.svg
+*.ico
+*.png
+package-lock.json
