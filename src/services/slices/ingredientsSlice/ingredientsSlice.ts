@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { TIngredient } from '@utils-types';
-import { getIngredientsApi } from '@utils';
+import { getIngredientsApi } from '@api';
 import { RootState } from '@store';
 
 interface IngredientState {
