@@ -1,0 +1,10 @@
+
+{
+  "success": true,
+  "accessToken": "mokeAccessToken",
+  "refreshToken": "mokeRefreshToken",
+  "user": {
+    "email": "test@test.com",
+    "name": "Tester"
+  }
+}
